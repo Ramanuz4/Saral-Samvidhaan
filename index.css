@@ -7,6 +7,11 @@
   font-family: Poppins;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+}
+
 .nav-bar {
   height: 8vh;
   width: 100%;
@@ -14,8 +19,6 @@
   justify-content: space-around;
   align-items: center;
   background-color: #bdb76c;
-  position: relative;
-  top: 0px;
   color: black;
 
   .logo-div {
@@ -113,4 +116,5 @@
 main {
   background-color: #cfc787;
   height: 200vh;
+  padding-top: 10px;
 }
