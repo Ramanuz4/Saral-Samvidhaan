@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.nav-bar {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bdb76c;
+  position: relative;
+  top: 0px;
+  color: black;
+
+  .logo-div {
+    height: 90%;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .logo-div img {
+    height: 100%;
+    width: 70px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    height: 90%;
+
+    .lang {
+      height: 40px;
+    }
+
+    .lang select {
+      height: 100%;
+      border: 2px solid rgb(0, 0, 0);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      outline: none;
+      font-size: 1rem;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .lang select option {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    input {
+      height: 40px;
+      width: 500px;
+      border: 2px solid rgb(0, 0, 0);
+      padding-left: 10px;
+      outline: none;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    input::placeholder {
+      padding-left: 5px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .btn1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      font-size: 20px;
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(0, 0, 0);
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+
+  .btn2 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+main {
+  background-color: #cfc787;
+  height: 200vh;
+}
