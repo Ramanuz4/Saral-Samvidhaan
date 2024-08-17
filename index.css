@@ -67,7 +67,10 @@ header {
     input {
       height: 40px;
       width: 500px;
-      border: 2px solid rgb(0, 0, 0);
+      border-top: 2px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      border-left: none;
+      border-right: none;
       padding-left: 10px;
       outline: none;
       font-size: 1rem;
@@ -117,4 +120,6 @@ main {
   background-color: #cfc787;
   height: 200vh;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
