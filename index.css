@@ -67,15 +67,9 @@ header {
 
     input {
       height: 40px;
-<<<<<<< HEAD
       width: 600px;
       border-top: 2px solid black;
       border-bottom: 2px solid black;
-=======
-      width: 500px;
-      border-top: 2px solid rgb(0, 0, 0);
-      border-bottom: 2px solid rgb(0, 0, 0);
->>>>>>> 430b1c24c6cbcb9cf4d15d370aece885a79237f1
       border-left: none;
       border-right: none;
       padding-left: 10px;
