@@ -16,7 +16,7 @@ header {
   height: 8vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #bdb76c;
   color: black;
@@ -24,6 +24,7 @@ header {
   .logo-div {
     height: 90%;
     width: 260px;
+    margin-left: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,8 +54,8 @@ header {
       border-bottom-left-radius: 10px;
       outline: none;
       font-size: 1rem;
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
       font-weight: 500;
       cursor: pointer;
     }
@@ -66,8 +67,11 @@ header {
 
     input {
       height: 40px;
-      width: 500px;
-      border: 2px solid rgb(0, 0, 0);
+      width: 600px;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      border-left: none;
+      border-right: none;
       padding-left: 10px;
       outline: none;
       font-size: 1rem;
@@ -100,6 +104,7 @@ header {
   .btn2 {
     height: 40px;
     width: 40px;
+    margin-right: 25px;
     background-color: rgb(255, 255, 255);
     color: gray;
     display: flex;
