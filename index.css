@@ -124,4 +124,13 @@ main {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+
+  #constitution-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 }
