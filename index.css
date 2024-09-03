@@ -125,6 +125,18 @@ main {
   padding-left: 10px;
   padding-right: 10px;
 
+  .constitution-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 300px;
+      height: 400px;
+    }
+  }
+
   #constitution-container {
     max-width: 800px;
     margin: 40px auto;
